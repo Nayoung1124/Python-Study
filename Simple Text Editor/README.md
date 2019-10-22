@@ -1,3 +1,3 @@
 Simple Text Editor 문제 해설
 -----------------------------
-<img src="https://user-images.githubusercontent.com/55957124/67276483-bb6f9280-f4ff-11e9-82a7-d26a373044aa.PNG" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/55957124/67276951-b0693200-f500-11e9-97e5-665869dd5197.PNG"></img>
