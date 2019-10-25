@@ -21,16 +21,16 @@ def minimumNumber(n, password):
         a = 6-len_password
         return a
     elif numbers not in list_password:
-        score=1
+        score+=1
         return score
     elif lower_case not in list_password:
-        score=1
+        score+=1
         return score 
     elif upper_case not in list_password:
-        score=1
+        score+=1
         return score
     elif special_characters not in list_password:
-        score=1
+        score+=1
         return score
 
 
