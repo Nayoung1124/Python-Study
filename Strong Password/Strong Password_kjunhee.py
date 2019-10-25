@@ -1,4 +1,4 @@
-#!/bin/python3
+"47/90 fail"
 
 import math
 import os
