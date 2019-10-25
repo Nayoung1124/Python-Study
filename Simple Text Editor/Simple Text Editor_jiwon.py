@@ -1,3 +1,4 @@
+"""Ver1"""
 class SimpleTextEditor():
     def __init__(self):
         self.backup = list() 
@@ -36,4 +37,33 @@ if __name__=='__main__':
             TE.Print(int(t[1]))
         else:
             TE.Undo()
+
+            
+            
+            
+            
+"""Ver2"""
+if __name__=='__main__':
+    Q = int(input().strip())
+
+    backup = list()
+    current = ''    
+
+    for i in range(Q):
+        t = input().strip().split()
+
+        if t[0] == '1':
+            backup.append(current)
+            current += t[1]
+
+        elif t[0] == '2':
+            backup.append(current)
+            current = current[:-int(t[1])]
+
+        elif t[0] == '3':
+            print(current[int(t[1])-1])
+
+        elif t[0] == '4':
+            current = backup.pop()
+
         
