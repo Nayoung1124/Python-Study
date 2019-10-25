@@ -1,5 +1,5 @@
-47/90 fail
------------
+"~fail~"
+---------
 def first(t,S): #append
     t_2nd=t.pop()
     t_string=list(t_2nd) # ['a', 'b', 'c']
