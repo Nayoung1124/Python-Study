@@ -1,21 +1,17 @@
-def minion_game(string):
-    Vowels = ['A', 'E', 'I', 'O', 'U']
-    Stuart, Kevin = 0, 0
+def merge_the_tools(string, k):
+    for i in range(0, len(string), k):
+        t = string[i:i+k]
+        
+        # 문자열 목표 단축길이 (t -> u) : while문 탈출조건에 사용
+        u_len = len(set(t)) 
 
-    for i in range(len(string)):
-        if not string[i] in Vowels:
-            Stuart += len(string) - i
-        else:
-            Kevin += len(string) - i
+        u, idx = t[0], 1
+        while len(u) != u_len:
+            u += t[idx] if not t[idx] in t[:idx] else ''
+            idx += 1
 
-    if Stuart > Kevin:
-        print('Stuart', Stuart)
-    elif Stuart < Kevin:
-        print('Kevin', Kevin)
-    else:
-        print('Draw')
-            
+        print(u)
 
 if __name__ == '__main__':
-    s = input()
-    minion_game(s)
+    string, k = input(), int(input())
+    merge_the_tools(string, k)
