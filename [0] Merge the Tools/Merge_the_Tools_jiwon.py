@@ -9,9 +9,9 @@ def merge_the_tools(string, k):
         while len(u) != u_len:
             u += t[idx] if not t[idx] in t[:idx] else ''
             idx += 1
-
         print(u)
 
+        
 if __name__ == '__main__':
     string, k = input(), int(input())
     merge_the_tools(string, k)
