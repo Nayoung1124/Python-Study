@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cdf2518-1ed7-4671-990b-1dba992b460c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Haackerrank.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cats and a Mouse/Cats_and_Mouse_Nayoung.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concatenate/Concatenate_Nayoung.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eye and Identity/Eye_and_Identity_Nayoung.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Forming a Magic Square/Forming_a_Magic_Square_Nayoung.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zeros and Ones/Zeros_and_Ones_Nayoung.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[0] The Minion Game/The_Minion_Game_Nayoung.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Array/Dynamic Array 문제해설.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Array/Dynamic Array_gayoung.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Array/Dynamic Array_jiwon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Array/Dynamic Array_junga.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Array/Dynamic Array_nayoung.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Array/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterables and Iterators/Iterables and Iterators_gayoung.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterables and Iterators/Iterables and Iterators_jiwon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterables and Iterators/Iterables and Iterators_junga.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterables and Iterators/Iterables and Iterators_junghyun.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterables and Iterators/Iterables and Iterators_kjunhee.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterables and Iterators/Iterables and Iterators_nayoung.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterables and Iterators/Iterables and Itertors 문제해설.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterables and Iterators/README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,12 +35,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="5" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="5" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -55,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/Cats and a Mouse/Cats_and_Mouse_Nayoung.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
               <folding>
                 <element signature="e#16#27#0" expanded="true" />
               </folding>
@@ -67,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/Concatenate/Concatenate_Nayoung.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -76,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/Forming a Magic Square/Forming_a_Magic_Square_Nayoung.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding>
                 <element signature="e#16#27#0" expanded="true" />
               </folding>
@@ -84,11 +90,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zeros and Ones/Zeros_and_Ones_Nayoung.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="418">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/[0] The Minion Game/The_Minion_Game_Nayoung.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -97,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/Eye and Identity/Eye_and_Identity_Nayoung.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -123,6 +138,9 @@
         <option value="$PROJECT_DIR$/Eye and Identity/Eye_and_Identity_Nayoung.py" />
         <option value="$PROJECT_DIR$/Forming a Magic Square/Forming_a_Magic_Square_Nayoung.py" />
         <option value="$PROJECT_DIR$/Zeros and Ones/Zeros_and_Ones_Nayoung.py" />
+        <option value="$PROJECT_DIR$/[1주차]Left Rotation/Left_Rotation_Nayoung.py" />
+        <option value="$PROJECT_DIR$/[1주차] Merge the Tools/Merge_the_Tools_Nayoung.py" />
+        <option value="$PROJECT_DIR$/[0] The Minion Game/The_Minion_Game_Nayoung.py" />
       </list>
     </option>
   </component>
@@ -235,7 +253,7 @@
     <entry file="file://$PROJECT_DIR$/Cats and a Mouse/Cats_and_Mouse_Nayoung.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
             <element signature="e#16#27#0" expanded="true" />
           </folding>
@@ -245,31 +263,55 @@
     <entry file="file://$PROJECT_DIR$/Eye and Identity/Eye_and_Identity_Nayoung.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Concatenate/Concatenate_Nayoung.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Forming a Magic Square/Forming_a_Magic_Square_Nayoung.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding>
             <element signature="e#16#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/[1주차]Left Rotation/Left_Rotation_Nayoung.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/[1주차] Merge the Tools/Merge_the_Tools_Nayoung.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Zeros and Ones/Zeros_and_Ones_Nayoung.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="418">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/[0] The Minion Game/The_Minion_Game_Nayoung.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
