@@ -14,4 +14,4 @@ print (numpy.mean(array_, axis = 1))
 print (numpy.var(array_, axis = 0))
 
 std_ = numpy.std(array_, axis = None)
-print (round(std_, 11)) # 소수점을 11번째 자리까지만 나타낸다.
+print (round(std_, 12)) # 소수점을 12번째 자리까지만 나타낸다.
