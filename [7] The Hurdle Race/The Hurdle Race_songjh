@@ -1,0 +1,27 @@
+import os
+
+def hurdleRace(k, height):
+    res = max(height) - k
+
+    if res > 0:
+        return res
+
+    else:
+        return 0
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    nk = input().split()
+
+    n = int(nk[0]) # 허들 수
+
+    k = int(nk[1]) # 댄이 점프할 수 있는 최대 높이
+
+    height = list(map(int, input().rstrip().split())) # 허들의 각 놑이를나타내는 배열
+
+    result = hurdleRace(k, height)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
