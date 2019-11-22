@@ -1,0 +1,12 @@
+import numpy
+numpy.set_printoptions(sign=' ') 
+n, m = input().split()
+my_array = []
+for i in range(int(n)):
+    my_array.append(list(map(int, input().strip().split(' '))))
+
+
+print (numpy.mean(my_array, axis = 1))
+print (numpy.var(my_array, axis = 0))
+for_std = numpy.std(my_array, axis = None)
+print (numpy.round_(for_std, 12))
